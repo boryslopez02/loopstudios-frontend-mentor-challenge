@@ -1,0 +1,49 @@
+.creations {
+  padding: 80px 15px;
+}
+
+.creations .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.creations .container .leader .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.creations .container .leader .items .img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.creations .container .leader .items .desktop {
+  display: none;
+}
+
+.creations .container .leader .items .content-text h1 {
+  font-size: 25px;
+}
+
+.creations .container .creations-box .box .img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.creations .container .creations-box .box .desktop {
+  display: none;
+}

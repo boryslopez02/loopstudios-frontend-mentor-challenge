@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-Bold.woff2") format("woff2"), url("../font/Lemonada-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-Light.woff2") format("woff2"), url("../font/Lemonada-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-Medium.woff2") format("woff2"), url("../font/Lemonada-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-Regular.woff2") format("woff2"), url("../font/Lemonada-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-SemiBold.woff2") format("woff2"), url("../font/Lemonada-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url("../font/Lemonada-Regular.woff2") format("woff2"), url("../font/Lemonada-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lemonada";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
